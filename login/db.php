@@ -1,0 +1,1 @@
+<?php $conn = mysqli_connect("localhost","root","","photos") or die(mysqli_error($conn)); if ($conn == true) { echo "Application connected to Database 'Magar.com' <br><br>"; }else { echo "Not Connected sorry "; } ?>
